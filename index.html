@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Vacancies - Study Abroad Private Limited</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="floating-icon icon-1">📚</div>
+        <div class="floating-icon icon-2">🎓</div>
+        <div class="floating-icon icon-3">🌍</div>
+        <div class="floating-icon icon-4">✈️</div>
+        <div class="floating-icon icon-5">📖</div>
+        <div class="floating-icon icon-6">🎓</div>
+        <div class="floating-icon icon-7">🌐</div>
+        <div class="floating-icon icon-8">✈️</div>
+        <div class="floating-icon icon-9">📚</div>
+        <div class="floating-icon icon-10">🎓</div>
+        <div class="floating-icon icon-11">🌍</div>
+        <div class="floating-icon icon-12">📖</div>
+    </div>
+    
+    <div class="container">
+        <header class="header">
+            <img src="logo.png" alt="Study Abroad Private Limited" class="logo">
+            <h1>Career Opportunities</h1>
+            <p class="subtitle">Study Abroad Private Limited</p>
+            <p class="address">📍 109 Kirulapone Ave, Colombo 00500</p>
+        </header>
+
+        <div class="jobs-grid">
+            <!-- Job Card 1 -->
+            <div class="job-card" onclick="openModal('job1')">
+                <div class="card-header" style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80');">
+                    <div class="card-header-overlay"></div>
+                    <div class="card-header-content">
+                        <h2 class="card-title">Inquiry Handling Specialist</h2>
+                        <span class="card-location">📍 Colombo</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-icon">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=100&q=80" alt="Customer Service" class="job-icon">
+                    </div>
+                    <p class="card-description">We are seeking a motivated and articulate female Inquiry Handling Specialist who will be the first point of contact for prospective students and their families.</p>
+                    <div class="card-tags">
+                        <span class="tag">Customer Service</span>
+                        <span class="tag">Communication</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="deadline">📅 Deadline: 5th December 2025</span>
+                        <span class="view-details">View Details →</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job Card 2 -->
+            <div class="job-card" onclick="openModal('job2')">
+                <div class="card-header" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80');">
+                    <div class="card-header-overlay"></div>
+                    <div class="card-header-content">
+                        <h2 class="card-title">Team Leader – Inquiry Management</h2>
+                        <span class="card-location">📍 Colombo</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-icon">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=100&q=80" alt="Leadership" class="job-icon">
+                    </div>
+                    <p class="card-description">Lead, coach, and motivate a team of inquiry specialists to achieve daily, weekly, and monthly targets in a fast-paced, target-driven environment.</p>
+                    <div class="card-tags">
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Management</span>
+                    </div>
+                    <div class="card-footer">
+                        <span class="deadline">📅 Deadline: 5th December 2025</span>
+                        <span class="view-details">View Details →</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="jobModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Job Details Templates (Hidden) -->
+    <div id="job1-details" style="display: none;">
+        <div class="job-header" style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&q=80');">
+            <div class="job-header-overlay"></div>
+            <div class="job-title-section">
+                <h2 class="job-title">Inquiry Handling Specialist</h2>
+                <div class="job-meta">
+                    <span class="company">Study Abroad Private Limited</span>
+                    <span class="location">📍 Colombo</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="job-content">
+            <section class="about-section">
+                <h3>About Us</h3>
+                <p>We are a dynamic study abroad agency dedicated to helping students pursue higher education overseas. We connect applicants with prospective programs, provide guidance through the application process, and support families every step of the way with <strong>18+ years of service excellence</strong>.</p>
+            </section>
+
+            <section class="role-section">
+                <h3>Role Overview</h3>
+                <p>We are seeking a motivated and articulate <strong>female Inquiry Handling Specialist</strong> who will be the first point of contact for prospective students and their families. Your primary responsibilities will be to call inquiries, qualify and filter positive leads, and hand off high-potential prospects to the Marketing team for further engagement.</p>
+            </section>
+
+            <section class="responsibilities-section">
+                <h3>Responsibilities</h3>
+                <ul>
+                    <li>Make outbound and handle inbound calls to prospective students and parents in a courteous, professional, and informative manner.</li>
+                    <li>Qualify inquiries by assessing interest, eligibility, timelines, budget, and program fit.</li>
+                    <li>Filter and categorize inquiries, prioritizing high-potential leads for the Marketing team.</li>
+                    <li>Maintain accurate records of all interactions in the CRM, including call notes and next steps.</li>
+                    <li>Provide timely follow-ups and coordinate with Marketing for targeted outreach.</li>
+                    <li>Meet and maintain key performance indicators (KPIs) such as call volume, conversion rate, and data accuracy.</li>
+                    <li>Collaborate with other teams (Counseling, Admissions, Marketing) to ensure a seamless student journey.</li>
+                    <li>Uphold company values and maintain a positive, customer-centric approach.</li>
+                </ul>
+            </section>
+
+            <section class="requirements-section">
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Female candidate preferred.</li>
+                    <li>Excellent verbal and written communication skills in English.</li>
+                    <li>Proficiency in Sinhala and/or Tamil is a strong asset.</li>
+                    <li>Strong phone etiquette, active listening, and compelling conversational skills.</li>
+                    <li>Good organizational skills with attention to detail.</li>
+                    <li>Ability to work independently and as part of a team; results-driven mindset.</li>
+                    <li>Prior experience in inbound/outbound calling, customer service, or education consulting is a plus.</li>
+                    <li>A degree or diploma preferred, not mandatory.</li>
+                </ul>
+            </section>
+
+            <section class="benefits-section">
+                <h3>Benefits</h3>
+                <ul>
+                    <li>Competitive salary and performance-based incentives.</li>
+                    <li>Comprehensive training and ongoing professional development.</li>
+                    <li>Opportunities for career growth within sales, marketing, and student advisory tracks.</li>
+                    <li>Friendly, supportive team culture.</li>
+                </ul>
+            </section>
+
+            <section class="apply-section">
+                <h3>How to Apply</h3>
+                <p>Please submit:</p>
+                <ul>
+                    <li>Your updated CV/resume</li>
+                    <li>Any relevant certifications or past experience in study abroad or education services</li>
+                </ul>
+                <div class="contact-info">
+                    <p><strong>Email applications to:</strong> <a href="mailto:info@studyabroad.lk">info@studyabroad.lk</a></p>
+                    <p><strong>Application deadline:</strong> 5th December 2025</p>
+                </div>
+            </section>
+
+            <div class="equal-opportunity">
+                <p><em>We are an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="job2-details" style="display: none;">
+        <div class="job-header" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80');">
+            <div class="job-header-overlay"></div>
+            <div class="job-title-section">
+                <h2 class="job-title">Team Leader – Inquiry Management</h2>
+                <div class="job-meta">
+                    <span class="company">Study Abroad Private Limited</span>
+                    <span class="location">📍 Colombo</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="job-content">
+            <section class="about-section">
+                <h3>About Us</h3>
+                <p>We empower students to pursue higher education overseas by connecting applicants with programs, guiding applications, and supporting families throughout the journey. Join a fast-paced, target-driven environment with a collaborative culture with <strong>18+ years of service excellence</strong>.</p>
+            </section>
+
+            <section class="responsibilities-section">
+                <h3>Responsibilities</h3>
+                <ul>
+                    <li>Lead, coach, and motivate a team of inquiry specialists to achieve daily, weekly, and monthly targets.</li>
+                    <li>Monitor team performance metrics (call volume, conversion rate, lead qualification quality, response times) and implement improvements.</li>
+                    <li>Develop and execute strategy to maximize high-potential lead flow to Marketing for effective engagement.</li>
+                    <li>Conduct regular one-on-one coaching, performance reviews, and skills development.</li>
+                    <li>Ensure quality assurance: listen to calls, provide feedback, and maintain consistency in messaging.</li>
+                    <li>Manage shifts, scheduling, and coverage to meet demand across time zones.</li>
+                    <li>Maintain accurate CRM records, produce weekly performance reports, and forecast pipeline.</li>
+                    <li>Collaborate with Marketing, Counseling, and Admissions to optimize the student journey.</li>
+                    <li>Uphold company values and maintain a customer-centric, results-driven culture.</li>
+                    <li>Demonstrate resilience: manage stress effectively and be prepared to work extended hours or adjust schedules as needed to meet targets.</li>
+                </ul>
+            </section>
+
+            <section class="requirements-section">
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Proven leadership experience in a sales, customer service, or education-admissions environment is preferred.</li>
+                    <li>At least 2 years of experience in a similar field with a demonstrated sales track record is strongly recommended. If you have outstanding leadership results and measurable targets achieved without 2 years in the exact role, we can consider alternative experiences—please apply and highlight relevant achievements.</li>
+                    <li>Excellent verbal and written communication skills in English.</li>
+                    <li>Proficiency in Sinhala and/or Tamil is a strong asset.</li>
+                    <li>Strong coaching, motivational, and conflict-resolution abilities.</li>
+                    <li>Resilience: ability to handle stress, maintain composure, and work unconditionally on time to meet targets.</li>
+                    <li>Solid understanding of CRM systems, data analytics, and pipeline management.</li>
+                    <li>Results-driven with the ability to thrive under pressure and meet targets.</li>
+                    <li>Bachelor's degree or diploma preferred; equivalent experience considered.</li>
+                </ul>
+                <div class="note-box">
+                    <p><strong>Note:</strong> The 2-year experience requirement is our general guideline to ensure leadership readiness in a sales-driven environment. We value demonstrable results, transferable leadership skills, and a proven track record of meeting or exceeding targets.</p>
+                </div>
+            </section>
+
+            <section class="benefits-section">
+                <h3>Benefits</h3>
+                <ul>
+                    <li>Highly competitive base salary plus substantial performance-based incentives and accelerators.</li>
+                    <li>Lucrative commission structures tied to team and individual performance.</li>
+                    <li>Comprehensive leadership development and ongoing training.</li>
+                    <li>Career growth opportunities into senior leadership, sales management, or strategic marketing tracks.</li>
+                    <li>Flexible working arrangements where applicable.</li>
+                    <li>Supportive, high-energy team culture.</li>
+                </ul>
+            </section>
+
+            <section class="apply-section">
+                <h3>How to Apply</h3>
+                <p>Please submit:</p>
+                <ul>
+                    <li>Your updated CV/resume</li>
+                    <li>A cover letter describing your leadership style, target-achievement track record, and language capabilities</li>
+                    <li>Any relevant certifications or past experience in study abroad, education services, or sales leadership</li>
+                </ul>
+                <div class="contact-info">
+                    <p><strong>Email applications to:</strong> <a href="mailto:info@studyabroad.lk">info@studyabroad.lk</a></p>
+                    <p><strong>Application deadline:</strong> 5th December 2025</p>
+                </div>
+            </section>
+
+            <div class="equal-opportunity">
+                <p><em>We are an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(jobId) {
+            const modal = document.getElementById('jobModal');
+            const modalBody = document.getElementById('modalBody');
+            const jobDetails = document.getElementById(jobId + '-details');
+            
+            modalBody.innerHTML = jobDetails.innerHTML;
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('jobModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('jobModal');
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-address">📍 109 Kirulapone Ave, Colombo 00500</p>
+            <p class="footer-copyright">&copy; 2025 Study Abroad Private Limited. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
