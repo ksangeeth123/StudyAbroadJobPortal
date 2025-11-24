@@ -607,42 +607,25 @@ strong {
     border-radius: 4px;
 }
 
-.highlight-box {
-    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-    border: 3px solid #f59e0b;
-    border-radius: 12px;
-    padding: 25px;
-    margin: 25px 0;
-    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+.highlight-requirement {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 15px 15px 15px 30px !important;
+    margin-bottom: 12px !important;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.15);
 }
 
-.highlight-box h4 {
+.highlight-requirement strong {
     color: #92400e;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-    border-bottom: 2px solid #f59e0b;
-    padding-bottom: 10px;
-}
-
-.highlight-box ul {
-    margin: 0;
-}
-
-.highlight-box ul li {
-    color: #78350f;
     font-size: 1.1rem;
-    font-weight: 600;
-    padding: 12px 0 12px 35px;
-    line-height: 1.8;
+    font-weight: 700;
+    line-height: 1.6;
 }
 
-.highlight-box ul li::before {
-    content: "✓";
-    color: #f59e0b;
-    font-size: 1.5rem;
-    font-weight: bold;
+.highlight-requirement::before {
+    color: #f59e0b !important;
+    font-size: 1.4rem !important;
 }
 
 .note-box p {
